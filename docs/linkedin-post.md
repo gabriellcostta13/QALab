@@ -23,7 +23,7 @@ Stack usada:
 - CSS responsivo
 - localStorage
 
-Repositório: [adicione aqui o link do GitHub]
+Repositório: https://github.com/gabriellcostta13/QALab
 Demo: [adicione aqui o link do deploy]
 
 #QA #QualityAssurance #SoftwareTesting #Portfolio #Nextjs #React #TypeScript
