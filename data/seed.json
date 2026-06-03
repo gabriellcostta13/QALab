@@ -1,0 +1,12 @@
+{
+  "user": {
+    "name": "Estudante de QA",
+    "goal": "Montar portfolio com evidencias, bugs e casos de teste."
+  },
+  "projects": [
+    "Loja Demo",
+    "API de Login",
+    "App de Tarefas"
+  ],
+  "generatedAt": "2026-06-03T12:47:34.208Z"
+}
