@@ -2,7 +2,9 @@
 
 Publiquei meu projeto de portfólio: QALab.
 
-O QALab é um dashboard para apoiar uma rotina de QA, com foco em registrar casos de teste, acompanhar status de execução e organizar bugs por projeto e severidade.
+O QALab é um dashboard pensado para apoiar a rotina de QAs, com foco em registrar casos de teste, acompanhar status de execução e organizar bugs por projeto e severidade.
+
+Além de praticar conceitos de QA e desenvolvimento front-end, esse projeto também foi uma experiência usando uma IA atual no fluxo de criação. Desenvolvi o QALab com apoio do OpenAI Codex, acelerando a construção do dashboard e usando ferramentas de IA para revisar código, testar funcionalidades e melhorar a interface.
 
 O que o projeto entrega:
 
@@ -13,7 +15,15 @@ O que o projeto entrega:
 - Persistência local no navegador
 - Interface responsiva e apresentável para portfólio
 
-Esse projeto foi pensado para demonstrar meu processo de QA de forma visual: organização, priorização, execução e acompanhamento de defeitos.
+Ferramentas e recursos usados com o Codex:
+
+- Assistente de código com OpenAI Codex
+- Edição estruturada de arquivos do projeto
+- Terminal para build, Git e validações
+- Navegador interno para testes visuais e funcionais
+- Auditoria de layout, responsividade, overflow e usabilidade
+- Revisão de README e texto de publicação
+- Preparação e push do repositório no GitHub
 
 Stack usada:
 
@@ -22,8 +32,11 @@ Stack usada:
 - TypeScript
 - CSS responsivo
 - localStorage
+- OpenAI Codex
+
+Esse projeto mostra como a combinação entre QA, desenvolvimento e IA pode gerar ferramentas simples, úteis e apresentáveis para a comunidade.
 
 Repositório: https://github.com/gabriellcostta13/QALab
 Demo: [adicione aqui o link do deploy]
 
-#QA #QualityAssurance #SoftwareTesting #Portfolio #Nextjs #React #TypeScript
+#QA #QualityAssurance #SoftwareTesting #Portfolio #Nextjs #React #TypeScript #OpenAICodex #InteligenciaArtificial
