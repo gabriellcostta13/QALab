@@ -37,6 +37,6 @@ Stack usada:
 Esse projeto mostra como a combinação entre QA, desenvolvimento e IA pode gerar ferramentas simples, úteis e apresentáveis para a comunidade.
 
 Repositório: https://github.com/gabriellcostta13/QALab
-Demo: [adicione aqui o link do deploy]
+Demo: https://qa-lab-weld.vercel.app
 
 #QA #QualityAssurance #SoftwareTesting #Portfolio #Nextjs #React #TypeScript #OpenAICodex #InteligenciaArtificial

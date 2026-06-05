@@ -8,6 +8,11 @@ O QALab foi criado para demonstrar uma rotina prática de qualidade de software:
 
 A proposta também mostra como uma IA atual, o OpenAI Codex, pode acelerar a criação de ferramentas úteis para a comunidade de QAs, apoiando desde a construção do código até a revisão visual e funcional do produto.
 
+## Links
+
+- Demo: https://qa-lab-weld.vercel.app
+- Repositório: https://github.com/gabriellcostta13/QALab
+
 ## Funcionalidades
 
 - Dashboard com métricas de casos, falhas, bloqueios e bugs abertos.
