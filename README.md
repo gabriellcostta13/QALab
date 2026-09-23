@@ -1,56 +1,130 @@
-# QALab
+# 🧪 QALab — Dashboard para Quality Assurance
 
-Dashboard de portfólio para organizar casos de teste e bugs em um fluxo simples de QA.
+O **QALab** é uma aplicação desenvolvida para representar uma rotina prática de **Quality Assurance**, permitindo organizar casos de teste, registrar bugs e acompanhar indicadores de execução em um dashboard.
 
-## Objetivo
+A ideia é transformar atividades comuns de QA em uma ferramenta simples e visual para organização de testes.
 
-O QALab foi criado para demonstrar uma rotina prática de qualidade de software: registrar casos de teste, acompanhar status de execução, cadastrar bugs por severidade e visualizar indicadores em um dashboard apresentável.
+## 🎯 Objetivo
 
-A proposta também mostra como uma IA atual, o OpenAI Codex, pode acelerar a criação de ferramentas úteis para a comunidade de QAs, apoiando desde a construção do código até a revisão visual e funcional do produto.
+O projeto foi criado com foco em demonstrar, de forma prática:
 
-## Links
+* Organização de casos de teste;
+* Acompanhamento de execução;
+* Registro e classificação de bugs;
+* Controle de status;
+* Visualização de métricas;
+* Organização de informações de qualidade.
 
-- Demo: https://qa-lab-weld.vercel.app
-- Repositório: https://github.com/gabriellcostta13/QALab
+Além de ser uma aplicação de portfólio, o projeto demonstra a aplicação de conceitos de QA na construção de uma ferramenta voltada para a própria área.
 
-## Funcionalidades
+## 📊 Funcionalidades
 
-- Dashboard com métricas de casos, falhas, bloqueios e bugs abertos.
-- Registro rápido de casos de teste por projeto.
-- Alteração de status dos casos: passou, falhou, bloqueado ou não executado.
-- Registro de bugs por projeto e severidade.
-- Alteração de status dos bugs: aberto, em análise ou corrigido.
-- Exclusão de casos e bugs.
-- Filtro por projeto.
-- Dados salvos localmente no navegador via `localStorage`.
-- Botão para restaurar a demo aos dados iniciais.
-- Interface responsiva e preparada para apresentação em portfólio.
+### Casos de teste
 
-## Uso de IA no desenvolvimento
+* Cadastro de casos de teste;
+* Associação dos casos a projetos;
+* Controle de status;
+* Status disponíveis:
 
-Este projeto foi desenvolvido com apoio do OpenAI Codex, usando recursos de IA para acelerar e qualificar o processo de construção:
+  * Passou;
+  * Falhou;
+  * Bloqueado;
+  * Não executado;
+* Exclusão de casos;
+* Filtro por projeto.
 
-- Geração e refino de código em Next.js, React e TypeScript.
-- Edição estruturada dos arquivos do projeto.
-- Execução de comandos no terminal para build, Git e validações.
-- Testes no navegador interno para validar navegação, formulários e estados do dashboard.
-- Auditoria visual de layout, overflow, responsividade e controles clicáveis.
-- Revisão de textos, README e legenda para publicação.
-- Preparação do repositório Git e publicação no GitHub.
+### Bugs
 
-## Stack
+* Registro de bugs;
+* Associação por projeto;
+* Classificação por severidade;
+* Controle de status;
+* Status:
 
-- Next.js
-- React
-- TypeScript
-- CSS responsivo sem framework
-- Persistência local no navegador
-- OpenAI Codex como apoio de desenvolvimento com IA
+  * Aberto;
+  * Em análise;
+  * Corrigido;
+* Exclusão de bugs.
 
-## Como rodar
+### Dashboard
+
+O dashboard apresenta indicadores relacionados à execução dos testes e aos bugs registrados, permitindo uma visão rápida do estado atual da qualidade.
+
+## 🧠 Como um QA pode utilizar o QALab
+
+O fluxo principal da ferramenta representa uma rotina simples de execução:
+
+```text
+Projeto
+   ↓
+Casos de teste
+   ↓
+Execução
+   ↓
+Resultado
+   ↓
+Falha identificada
+   ↓
+Registro do bug
+   ↓
+Acompanhamento
+```
+
+Isso permite representar conceitos presentes em uma rotina de QA, como **casos de teste, execução, evidências de falha, severidade, status e acompanhamento de defeitos**.
+
+## 💾 Persistência dos dados
+
+Nesta versão, os dados são armazenados utilizando:
+
+```text
+localStorage
+```
+
+Isso permite manter os dados no navegador sem necessidade de backend ou banco de dados.
+
+A aplicação também possui uma opção para restaurar os dados iniciais da demonstração.
+
+## 🛠️ Stack
+
+* Next.js
+* React
+* TypeScript
+* CSS
+* localStorage
+* Git
+* GitHub
+
+## 🌐 Demonstração
+
+A aplicação possui uma versão publicada para demonstração:
+
+**https://qa-lab-weld.vercel.app**
+
+Os dados utilizados na demonstração são armazenados localmente no navegador.
+
+## 🚀 Como executar localmente
+
+Clone o projeto:
+
+```bash
+git clone https://github.com/gabriellcostta13/QALab.git
+```
+
+Acesse o diretório:
+
+```bash
+cd QALab
+```
+
+Instale as dependências:
 
 ```bash
 npm install
+```
+
+Execute o projeto:
+
+```bash
 npm run dev
 ```
 
@@ -60,21 +134,38 @@ Acesse:
 http://localhost:3000
 ```
 
-## Build
+## 🏗️ Build
+
+Para gerar a versão de produção:
 
 ```bash
 npm run build
 ```
 
-## Deploy
+## 🤖 Uso de IA no desenvolvimento
 
-Este projeto está pronto para deploy em plataformas como Vercel ou Netlify. Para publicar na Vercel:
+O desenvolvimento contou com apoio de ferramentas de IA para acelerar atividades de implementação, revisão e validação.
 
-1. Suba o projeto para um repositório no GitHub.
-2. Importe o repositório na Vercel.
-3. Use as configurações padrão de Next.js.
-4. Publique e teste o link final em desktop e mobile.
+A IA foi utilizada como **ferramenta de desenvolvimento**, enquanto as decisões relacionadas à estrutura da aplicação, funcionalidades, experiência de uso e validação do resultado fizeram parte do processo de construção do projeto.
 
-## Observação
+## 💡 O que este projeto demonstra
 
-Os dados cadastrados ficam no navegador da pessoa que está usando a demo. Isso mantém o projeto leve para portfólio e evita depender de backend ou banco de dados nesta versão.
+O QALab demonstra a combinação entre:
+
+* Conhecimento de QA;
+* Organização de processos de teste;
+* Desenvolvimento web;
+* Modelagem de informações;
+* Pensamento orientado a qualidade;
+* Criação de ferramentas para apoiar atividades de QA.
+
+Mais do que apresentar apenas uma aplicação web, o projeto busca demonstrar como conceitos de qualidade podem ser transformados em uma ferramenta funcional.
+
+## 👨‍💻 Autor
+
+**Gabriel Costa**
+
+Quality Assurance (QA) | Testes Manuais | Automação de Testes em desenvolvimento
+
+* [GitHub](https://github.com/gabriellcostta13)
+* [LinkedIn](https://www.linkedin.com/in/gabrielcostatec)
